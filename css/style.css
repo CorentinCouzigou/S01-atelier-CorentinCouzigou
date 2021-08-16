@@ -1,0 +1,245 @@
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    
+   
+}
+
+header {
+
+    width: 50%;
+    height: 100vh;
+    position: fixed;
+    z-index:-1;
+    
+
+}
+
+.background {
+
+    background-image: url("../images/nicole.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+
+
+}
+
+
+.logo {
+
+    position: absolute;
+    top: 40px;
+    display: flex;
+    margin: 0 35px;
+    flex-wrap: wrap;
+
+
+
+}
+
+.logo_img {
+
+
+
+    width: 50px;
+
+
+}
+
+
+
+.logo h1 {
+
+    font-size: 30px;
+    color: white;
+    width: 10px;
+    padding-left: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+
+
+
+}
+
+
+.middleHeader {
+
+    position: relative;
+    top: -400px;
+    width: 80%;
+    background-color: rgba(249, 249, 249, 0.2);
+    margin: 0 auto;
+
+
+
+
+}
+
+.containermiddle {
+
+
+
+    text-align: right;
+    padding: 30px 20px;
+    margin-left: 50px;
+    color: white;
+    text-shadow: 1px 1px 2px black;
+    line-height: 20px;
+    max-height: 200px;
+    overflow: auto;
+
+
+}
+
+.containermiddle h1 {
+
+    font-size: 25px;
+    font-weight: bold;
+    display: inline-block;
+    padding-bottom: 20px;
+
+
+}
+
+.containermiddle em {
+
+    font-style: italic;
+
+
+
+}
+
+header nav {
+    
+    position: absolute;
+    bottom: 0;
+    color: white;
+    right: 10px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+
+
+
+
+}
+
+
+
+header nav ul {
+    display: flex;
+}
+
+header nav ul li {
+    display:inline;
+    padding: 0 25px;
+    text-shadow: 1px 1px 2px black;
+
+
+}
+
+main {
+    background-color: #F9F9F9;
+    width: 50%;
+    position:absolute;
+    right:5px;
+ 
+
+}
+
+.lastest h2 {
+
+    font-size: 1.8rem;
+    font-weight: bold;
+    padding: 20px 20px;
+}
+
+.articles {
+
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    
+    
+
+
+
+}
+
+article {
+    padding: 20px;
+    background: white;
+    width: 50%;
+    border:1px solid  #F9F9F9;
+    
+
+   
+
+}
+article:hover {
+    transform: scale(1.1);
+    transition:all 0.8s ease-in-out;
+}
+
+.button {
+    border-radius: 3px;
+    color: white;
+    font-size: 0.7rem;
+    border: none;
+    padding: 5px 7px;
+    font-weight: bold;
+
+
+}
+
+.vert {
+
+    margin: 15px 0;
+    background-color: greenyellow;
+}
+
+.rouge {
+
+    margin: 15px 0;
+    background-color: red;
+}
+
+.blue {
+
+    margin: 15px 0;
+    background-color: rgb(0, 123, 255);
+}
+
+
+.img_article {
+
+    height: 30px;
+    margin:-9px 0;
+   
+}
+
+h3 {
+    font-size: 1.2rem;
+    font-weight: bold;
+  
+}
+
+strong {
+    font-weight: bold;
+}
+
+.date {
+    color: rgb(94, 94, 94);
+}
+
+.articles article a {
+    color: rgb(0, 123, 255);
+    text-decoration: underline;
+    font-weight: bold;
+
+}
+article p {
+    line-height: 1.2rem;
+}
